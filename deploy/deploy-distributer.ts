@@ -4,6 +4,7 @@ import {HardhatRuntimeEnvironment} from "hardhat/types";
 import {Deployer} from "@matterlabs/hardhat-zksync-deploy";
 
 // load env file
+// @ts-ignore
 import dotenv from "dotenv";
 
 dotenv.config();

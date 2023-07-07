@@ -3,6 +3,7 @@ import * as ethers from "ethers";
 import { HardhatRuntimeEnvironment } from "hardhat/types";
 
 // load env file
+// @ts-ignore
 import dotenv from "dotenv";
 dotenv.config();
 
